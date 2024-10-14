@@ -1,0 +1,148 @@
+.loginPage {
+    background: url('Images/employeems.png');
+    background: linear-gradient(rgba(11, 11, 11, 0.5), rgba(10, 10, 10, 0.5)), url("Images/employeems.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+}
+.logo-image {
+  max-width: 40px;  /* Adjust the size of the logo */
+  height: auto;
+  display: block;
+}
+
+.loginForm {
+    background-color: rgba(6, 9, 8, 0.811);
+    color: white;
+    
+    
+}
+.custom-login-btn {
+  width: 100%;              /* Equivalent to w-100 */
+  background-color: #3be362; /* Equivalent to btn-success */
+  border: none;             /* Remove default button border */
+  color: white;             /* Button text color */
+  padding: 10px;            /* Adjust padding if necessary */
+  font-size: 16px;          /* Set font size */
+  border-radius: 0.25rem;   /* Equivalent to rounded-2 (rounded corners) */
+  margin-bottom: 0.75rem;
+  margin-top: 15px;    /* Equivalent to mb-2 (margin-bottom) */
+  cursor: pointer;
+}
+
+.custom-login-btn:hover {
+  background-color: #218838; /* Slightly darker green on hover */
+}
+
+.custom-login-btn:focus {
+  outline: none;            /* Remove focus outline */
+  box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5); /* Focus shadow */
+}
+
+
+h2 {
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+h4 {
+  color: #ffffff;
+  font-weight: bold;
+
+}
+.mb-2{
+  border-radius: 2cm;
+}
+
+ul li :hover {
+    background-color: gray;
+}
+
+.employee_image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.emp_det_image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.input-group-text {
+    background-color: #f0f0f0;
+  }
+  .table-hover tbody tr:hover {
+    background-color: #f9f9f9;
+  }
+ 
+  
+  .custom-container {
+    position: relative;
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 90px;
+
+    } 
+/* Style for circular header logo */
+.header-logo {
+  width: 60px; /* Adjust the width to fit your design */
+  height: 60px; /* Ensure height matches width to maintain circular shape */
+  border-radius: 50%; /* This makes the image circular */
+  object-fit: cover; /* Ensures the image fits the circular area */
+}
+
+/* Ensure the logo is aligned at the leftmost corner */
+.logo-container {
+  margin-right: auto; /* Ensure logo stays to the far left */
+}
+.btn-auto {
+  width: auto; /* Button width adjusts to its content */
+  padding: 0.5rem 0.5rem; /* Ensure proper padding for button */
+  font-size: 16px; /* Adjust the font size if needed */
+}
+h3 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+h5 {
+  font-weight: bold;
+  color: #333;
+}
+
+
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.pie-chart-container {
+  max-width: 400px; 
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1200px; 
+}
+
+.grid-container {
+  display: flex; 
+  justify-content: space-between; 
+  flex-wrap: wrap; 
+}
+
+.chart-card {
+  flex: 1; 
+  margin: 10px; 
+  min-width: 250px; 
+  max-width: 450px; 
+  padding: 20px; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  background-color: #fff; 
+}
